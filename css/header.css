@@ -7,16 +7,21 @@ header {
   padding: 38px 48px;
 }
 
-nav{
-    display: none;
+.logo {
+  width: 68px;
+  height: 64px;
+  display: inline-block;
 }
 
 .navegation-menu{
  margin-top: 24px;
 }
 
-.logo {
-  width: 68px;
-  height: 64px;
-  display: inline-block;
+input[type="checkbox"]:checked ~ nav{
+    display: block;
 }
+
+nav{
+    display: none;
+}
+
