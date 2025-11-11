@@ -24,6 +24,8 @@
 }
 
 .categories-cards .card h3 {
+    width: 280px;
+    height: 34px;
   font-size: 28px;
   font-weight: var(--title-weight);
 }
@@ -52,6 +54,11 @@
   .categories-cards .card {
     width: 438px;
   }
+
+  .categories-cards .card h3 {
+    width: 100%;
+    height: 100%;
+}
 }
 
 @media screen and (min-width: 1440px) {
