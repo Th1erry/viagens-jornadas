@@ -45,11 +45,17 @@ body {
 
 section {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 88px;
 }
 
 section.hero {
   width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280;
+  margin: 0 auto 32px;
 }
 
 .section-title h2 {
@@ -78,11 +84,17 @@ section.hero {
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
+  }
+
+  .section-title {
+    width: 100%;
+    margin: 0 auto 32px;
   }
 
   section {
