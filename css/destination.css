@@ -25,15 +25,10 @@
 }
 
 .destination-card .card header h4 {
-  font-weight: var(--title-weight);
-  font-size: 28px;
   margin: 24px 0;
 }
 
 .destination-card .card p {
-  font-weight: var(--text-weight);
-  font-size: 20px;
-  line-height: 32px;
   margin-bottom: 24px;
   text-align: justify;
 }
