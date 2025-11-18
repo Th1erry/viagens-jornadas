@@ -1,0 +1,11 @@
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonial-container {
+    flex-direction: row;
+  }
+}
