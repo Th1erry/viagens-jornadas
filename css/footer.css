@@ -1,0 +1,22 @@
+.footer-img {
+  width: 100%;
+  aspect-ratio: 360 / 400;
+  background: url(../img/footer-img.jpg) no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-img {
+    aspect-ratio: 768 / 400;
+    background: url(../img/footer-img-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-img {
+    aspect-ratio: 1440 / 600;
+    background: url(../img/footer-img-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}

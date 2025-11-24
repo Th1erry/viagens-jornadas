@@ -1,6 +1,6 @@
 .hero-img {
-  height: 400px;
   width: 100%;
+  aspect-ratio: 360 / 400;
   background: url(../img/hero_mobile.jpg) no-repeat;
   background-size: cover;
 }
@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-img {
-    height: 620px;
+    aspect-ratio: 768 / 620;
     background: url(../img/hero_tablet.jpg) no-repeat;
     background-size: cover;
   }
@@ -29,6 +29,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero-img {
+    aspect-ratio: 1440 / 620;
     background: url(../img/hero_desktop.jpg) no-repeat;
     background-size: cover;
   }

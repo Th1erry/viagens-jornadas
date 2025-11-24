@@ -53,6 +53,11 @@ section.hero {
   margin: 0;
 }
 
+section.footer-hero {
+  width: 100%;
+  margin: 0;
+}
+
 .section-title {
   width: 280;
   margin: 0 auto 32px;
