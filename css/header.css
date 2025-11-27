@@ -55,6 +55,11 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  .list-links a.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+
   .navegation-menu {
     margin-top: 0;
     width: 467px;
