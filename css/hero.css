@@ -1,15 +1,49 @@
-.footer-hero .footer-img {
+.hero {
   width: 100%;
+}
+
+.hero .footer-img {
   aspect-ratio: 360 / 400;
-  background: url(../img/footer-img.jpg) no-repeat center;
+  background: url(../img/footer-img.jpg) no-repeat;
   background-size: cover;
 }
 
 .hero .hero-img {
-  width: 100%;
   aspect-ratio: 360 / 400;
   background: url(../img/hero_mobile.jpg) no-repeat;
   background-size: cover;
+}
+
+.hero .hero-viagens {
+  aspect-ratio: 360 / 400;
+  background: url(../img/hero-japao.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero .hero-viagens .hero-content {
+  padding: 65px 24px;
+}
+
+.hero .hero-viagens .hero-content p {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+}
+
+.hero .hero-title h1 {
+  font-weight: var(--title-weight);
+  font-size: 48px;
+  line-height: 100%;
+  color: var(--text-secondary-color);
+}
+
+.hero .hero-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px 0px;
 }
 
 .hero h2 {
@@ -28,10 +62,27 @@
     background-size: cover;
   }
 
-  .footer-hero .footer-img {
+  .hero .footer-img {
     aspect-ratio: 768 / 400;
     background: url(../img/footer-img-tablet.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero .hero-viagens {
+    aspect-ratio: 768 / 620;
+    background: url(../img/hero-japao-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero .hero-viagens .hero-content {
+    padding: 210px 120px 108px 69px;
+    width: 579px;
+    height: 303px;
+  }
+
+  .hero .hero-viagens .hero-content p {
+    font-size: 32px;
+    line-height: 150%;
   }
 
   .hero h2 {
@@ -47,9 +98,15 @@
     background-size: cover;
   }
 
-  .footer-hero .footer-img {
-    aspect-ratio: 1440 / 600;
+  .hero .footer-img {
+    aspect-ratio: 1440 / 620;
     background: url(../img/footer-img-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero .hero-viagens {
+    aspect-ratio: 1440 / 620;
+    background: url(../img/hero-japao-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
