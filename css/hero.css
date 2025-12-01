@@ -55,6 +55,11 @@
   line-height: 1.5;
 }
 
+section.hero .hero-viagens {
+  width: 100%;
+  margin-bottom: 88px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     aspect-ratio: 768 / 620;
